@@ -3,8 +3,10 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import ICard from './components/ICard'
-import ICardGallery from './components/ICardGallery'
+//import ICard from './components/ICard'
+//import ICardGallery from './components/ICardGallery'
+import MyState from './components/MyState'
+import ColorChange from './components/ColorChange'
 
 function App() {
   
@@ -17,8 +19,9 @@ function App() {
       <h2 style={{color:'cyan'}}>Name:Roshni Singh</h2>
       <h2 style={{color:'brown'}}>Branch:CSE</h2>
       <h2 style={{color:'greenyellow'}}>Section:CSE-24</h2>
-      <h2 style={{color:'plum'}}>Skills:HTML,CSS,JS,React</h2>*/}
-      <ICardGallery/>
+      <h2 style={{color:'plum'}}>Skills:HTML,CSS,JS,React</h2>}
+      <ICardGallery/>*/}
+      <ColorChange/>
       </div>
       
     
