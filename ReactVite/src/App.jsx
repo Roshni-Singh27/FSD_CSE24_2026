@@ -9,6 +9,8 @@ import MyState from './components/MyState'
 import ColorChange from './components/ColorChange'
 import NameChange from './components/NameChange'
 import ImageManipulation from './components/ImageManipulation'
+import MyUseEffect from './components/MyUseEffect'
+import FetchProducts from './components/FetchProducts'
 
 function App() {
   
@@ -23,8 +25,10 @@ function App() {
       <h2 style={{color:'brown'}}>Branch:CSE</h2>
       <h2 style={{color:'greenyellow'}}>Section:CSE-24</h2>
       <h2 style={{color:'plum'}}>Skills:HTML,CSS,JS,React</h2>}
-      <ICardGallery/>*/}
+      <ICardGallery/>
       <ImageManipulation/>
+      <MyUseEffect/>*/}
+      <FetchProducts/>
       </div>
       
     
