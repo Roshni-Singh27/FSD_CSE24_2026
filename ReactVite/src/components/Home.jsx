@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link,Outlet} from "react-router-dom";
 function Home() {
   return (
     <div>
@@ -12,11 +12,9 @@ function Home() {
             <li>
                 <Link to='/register'>Registration</Link>
             </li>
-            <li>
-                <Link to='/dashboard'>Dashboard</Link>
-            </li>
         </ul>
       </nav>
+    <Outlet/>
     </div>
   );
 }
